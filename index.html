@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vocabulaire du football</title>
+  <style>
+    body {
+      font-family: "Helvetica", sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #1a4d8f;
+    }
+    .exercise {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    input {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 3px 6px;
+      width: 120px;
+      margin: 0 3px;
+    }
+    button {
+      background: #1a4d8f;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #306cc1;
+    }
+    .correction {
+      margin-top: 10px;
+      font-weight: bold;
+      color: green;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>⚽ Vocabulaire du Football</h1>
+
+<div class="exercise">
+  <h2>🧠 Échauffement lexical (les noms)</h2>
+  
+  <p>1. L’<input data-answer="équipe"> entre sur le <input data-answer="terrain"> de foot.  
+  <strong>球队</strong>走进<strong>球场</strong>。</p>
+
+  <p>2. L’<input data-answer="arbitre"> tient le <input data-answer="ballon"> dans les mains.  
+  <strong>裁判</strong>手里拿着<strong>球</strong>。</p>
+
+  <p>3. Le <input data-answer="coup d’envoi"> commence le <input data-answer="match">.  
+  <strong>开球</strong>开始<strong>比赛</strong>。</p>
+
+  <p>4. Les <input data-answer="attaquants"> et les <input data-answer="défenseurs"> se préparent.  
+  <strong>前锋</strong>和<strong>后卫</strong>在做准备。</p>
+
+  <p>5. Le <input data-answer="gardien"> est devant les <input data-answer="buts">, entre la <input data-answer="barre"> et la <input data-answer="barre"> transversale.  
+  <strong>守门员</strong>站在<strong>球门</strong>前面，在<strong>门柱</strong>和<strong>横梁</strong>之间。</p>
+
+  <p>6. Les <input data-answer="supporters"> crient dans le <input data-answer="stade">.  
+  <strong>球迷</strong>在<strong>体育场</strong>里大喊。</p>
+
+  <p>7. L’<input data-answer="entraîneur"> parle à ses <input data-answer="joueurs"> sur le <input data-answer="banc">.  
+  <strong>教练</strong>在<strong>替补席</strong>上和他的<strong>球员</strong>说话。</p>
+
+  <p>8. Un joueur reçoit un <input data-answer="carton jaune"> après une <input data-answer="faute">.  
+  球员因为一次<strong>犯规</strong>被出示<strong>黄牌</strong>。</p>
+
+  <p>9. L’équipe marque un <input data-answer="but"> et tout le monde pense à la <input data-answer="victoire"> !  
+  球队进了一个<strong>球</strong>，大家都在想<strong>胜利</strong>！</p>
+
+  <p>10. Après la <input data-answer="mi-temps">, les <input data-answer="remplaçants"> s’échauffent.  
+  <strong>中场休息</strong>后，<strong>替补球员</strong>在热身。</p>
+
+  <button onclick="checkAnswers(this.parentElement)">Vérifier</button>
+  <p class="correction">✅ Bravo !</p>
+</div>
+
+<div class="exercise">
+  <h2>🎙️ Commentaire du match fictif</h2>
+
+  <p>Bonjour à tous et bienvenue au <input data-answer="stade"> !  
+  Le <input data-answer="match"> commence, l’<input data-answer="arbitre"> <input data-answer="siffle"> le <input data-answer="coup d’envoi">.</p>
+
+  <p>Les <input data-answer="joueurs"> <input data-answer="s’échauffent"> encore un peu.  
+  L’<input data-answer="équipe"> bleue <input data-answer="passe"> la <input data-answer="balle">, le numéro dix <input data-answer="dribble"> un défenseur et <input data-answer="tire"> !</p>
+
+  <p>La <input data-answer="barre"> ! La <input data-answer="balle"> touche la <input data-answer="barre"> transversale et revient sur le <input data-answer="terrain"> !</p>
+
+  <p>Un <input data-answer="milieu"> <input data-answer="fait"> une <input data-answer="faute">, l’<input data-answer="arbitre"> <input data-answer="siffle"> et donne un <input data-answer="coup franc">.</p>
+
+  <p>Le <input data-answer="gardien"> <input data-answer="plonge"> et <input data-answer="arrête"> le ballon, quelle <input data-answer="parade"> !</p>
+
+  <p>Maintenant, un <input data-answer="attaquant"> <input data-answer="commet"> un <input data-answer="tacle"> dangereux : <input data-answer="carton rouge">, il est <input data-answer="expulsé"> !</p>
+
+  <p>Les <input data-answer="supporters"> <input data-answer="encouragent"> encore leur <input data-answer="équipe">, malgré la difficulté.</p>
+
+  <p>Le temps passe, les <input data-answer="joueurs"> <input data-answer="jonglent"> un peu, essaient de <input data-answer="marquer">.</p>
+
+  <p>Et oui ! À la dernière minute, le numéro dix <input data-answer="tire"> encore une fois et <input data-answer="marque"> !</p>
+
+  <p>Les <input data-answer="joueurs"> <input data-answer="célèbrent"> la <input data-answer="victoire">, l’<input data-answer="arbitre"> <input data-answer="siffle"> la fin du <input data-answer="match">.</p>
+
+  <p>Les <input data-answer="joueurs"> <input data-answer="sortent"> du <input data-answer="terrain">, les <input data-answer="supporters"> chantent, quelle belle soirée de football !</p>
+
+  <button onclick="checkAnswers(this.parentElement)">Vérifier</button>
+  <p class="correction">✅ Bravo !</p>
+</div>
+
+<script>
+function checkAnswers(section) {
+  const inputs = section.querySelectorAll("input");
+  let allCorrect = true;
+  inputs.forEach(input => {
+    const correct = input.dataset.answer.toLowerCase().trim();
+    const user = input.value.toLowerCase().trim();
+    if (user === correct) {
+      input.style.backgroundColor = "#c6f6c6";
+    } else {
+      input.style.backgroundColor = "#f6c6c6";
+      allCorrect = false;
+    }
+  });
+  const correction = section.querySelector(".correction");
+  correction.style.display = allCorrect ? "block" : "none";
+}
+</script>
+
+</body>
+</html>
